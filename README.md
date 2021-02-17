@@ -1,2 +1,2 @@
-# gazebo_maps
+# Gazebo maps
 Self-made Gazebo maps for public
