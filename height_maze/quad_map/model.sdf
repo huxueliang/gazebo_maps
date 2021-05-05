@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='quad_map'>
+
+    <include>
+      <pose>0 0 0 0 0 1.5708</pose>
+      <uri>model://quad_maze</uri>
+    </include>
+    <include>
+      <pose>0 0 0 0 0 0</pose>
+      <uri>model://quad_height</uri>
+    </include>
+    <include>
+      <pose>0 0 0 0 0 0</pose>
+      <uri>model://quad_ground</uri>
+    </include>
+
+  </model>
+</sdf>
