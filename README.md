@@ -11,12 +11,15 @@ Self-made Gazebo maps for public
 <br>
 
 ## How to use
-+ clone the git, add the folder in `GAZEBO_MODEL_PATH`
-+ launch the `world`
++ Clone the git, add the folder in `GAZEBO_MODEL_PATH`
++ Add `common models` to environment first
 ~~~shell
 $ git clone https://github.com/engcang/gazebo_maps
 $ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/common_models" >> ~/.bashrc
+~~~
 
++ (Optional) add the wanted world to environment
+~~~shell
 $ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/height_maze" >> ~/.bashrc
 
 $ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/small_maze" >> ~/.bashrc
@@ -24,10 +27,13 @@ $ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/small_maz
 $ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/large_mine_abandoned" >> ~/.bashrc
 
 $ source ~/.bashrc
+~~~
 
-$ roslaunch gazebo_ros empty_world world_name:=$(pwd)/gazebo_maps/height_maze/quad.world
++ launch the `world`
+~~~shell
+$ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/height_maze/quad.world
 or
-$ roslaunch gazebo_ros empty_world world_name:=$(pwd)/gazebo_maps/small_maze/smaze2d.world
+$ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/small_maze/smaze2d.world
 or
-$ roslaunch gazebo_ros empty_world world_name:=$(pwd)/gazebo_maps/large_mine_abandoned/lcmine.world
+$ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/large_mine_abandoned/lcmine.world
 ~~~
