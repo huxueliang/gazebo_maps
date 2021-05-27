@@ -25,7 +25,8 @@
               <size>15</size>
             </texture>
             <texture>
-              <diffuse>model://quad_height/materials/textures/new_grass_dry.png</diffuse>
+              <!--diffuse>model://quad_height/materials/textures/new_grass_dry.png</diffuse-->
+              <diffuse>file://media/materials/textures/fungus_diffusespecular.png</diffuse>
               <normal>file://media/materials/textures/flat_normal.png</normal>
               <size>15</size>
             </texture>
