@@ -327,38 +327,33 @@
 
     <include>
       <name>n24</name>
-      <pose>9.4 -9.35 0 0 0 -0.7854</pose>
+      <pose>9.18 -9.5 0 0 0 -0.92</pose>
       <uri>model://unit_wall</uri>
     </include>
     <include>
       <name>n25</name>
-      <pose>11.6 -11.55 0 0 0 -0.7854</pose>
+      <pose>11.25 -12.2 0 0 0 -0.92</pose>
       <uri>model://unit_wall</uri>
     </include>
     <include>
       <name>n26</name>
-      <pose>13.8 -13.75 0 0 0 -0.7854</pose>
-      <uri>model://unit_wall</uri>
-    </include>
-    <include>
-      <name>n27</name>
-      <pose>14.6 -14.55 0 0 0 -0.7854</pose>
+      <pose>12.95 -14.45 0 0 0 -0.92</pose>
       <uri>model://unit_wall</uri>
     </include>
 
     <include>
       <name>n28</name>
-      <pose>3.1 -9.65 0 0 0 1.1072</pose>
+      <pose>3.50 -9.85 0 0 0 1.33</pose>
       <uri>model://unit_wall</uri>
     </include>
     <include>
       <name>n29</name>
-      <pose>2.1 -11.65 0 0 0 1.1072</pose>
+      <pose>3.05 -11.65 0 0 0 1.33</pose>
       <uri>model://unit_wall</uri>
     </include>
     <include>
       <name>n30</name>
-      <pose>0.85 -14.15 0 0 0 1.1072</pose>
+      <pose>2.43 -14.15 0 0 0 1.33</pose>
       <uri>model://unit_wall</uri>
     </include>
 
@@ -371,6 +366,17 @@
       <name>n32</name>
       <pose>-14 -20 0 0 0 0</pose>
       <uri>model://unit_wall</uri>
+    </include>
+
+    <include>
+      <name>h1</name>
+      <pose>1 -16 0 0 0 0</pose>
+      <uri>model://half_wall</uri>
+    </include>
+    <include>
+      <name>h2</name>
+      <pose>15 -16 0 0 0 0</pose>
+      <uri>model://half_wall</uri>
     </include>
 
   </model>
