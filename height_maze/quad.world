@@ -24,7 +24,6 @@
 
     <include>
       <uri>model://quad_map</uri>
-      <pose>26.5 -14.0 0 0 0 0</pose>
     </include>
 
   </world>
