@@ -9,7 +9,7 @@
           <heightmap>
             <uri>model://quad_height/materials/textures/height_real_final.png</uri>
             <size>51.2 51.2 2.5</size>
-            <pos>0 0 0</pos>
+            <pos>26.5 -14.0 0</pos>
           </heightmap>
         </geometry>
       </collision>
@@ -43,7 +43,7 @@
             </blend>
             <uri>model://quad_height/materials/textures/height_real_final.png</uri>
             <size>51.2 51.2 2.5</size>
-            <pos>0 0 0</pos>
+            <pos>26.5 -14.0 0</pos>
           </heightmap>
         </geometry>
       </visual>
