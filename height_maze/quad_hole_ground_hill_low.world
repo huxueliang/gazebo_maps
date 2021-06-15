@@ -28,8 +28,11 @@
       <uri>model://quad_map</uri>
     </include>
     <include>
+      <uri>model://quad_height_low</uri>
+    </include>
+    <include>
       <pose>0 0 0 0 0 1.5708</pose>
-      <uri>model://quad_ground</uri>
+      <uri>model://quad_hole_ground</uri>
     </include>
 
   </world>

@@ -29,7 +29,7 @@
     </include>
     <include>
       <pose>0 0 0 0 0 1.5708</pose>
-      <uri>model://quad_ground</uri>
+      <uri>model://quad_hole_ground</uri>
     </include>
 
   </world>
