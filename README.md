@@ -33,7 +33,8 @@ $ source ~/.bashrc
 ~~~shell
 $ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/height_maze/quad.world
 
-or quad_hill_high.world, quad_hole_ground.world, quad_hole_ground_hill_low.world in same directory
+or quad_hill_high.world, quad_hole_ground.world, quad_hole_ground_hill_low.world, etc... 
+in same directory
 
 or
 
